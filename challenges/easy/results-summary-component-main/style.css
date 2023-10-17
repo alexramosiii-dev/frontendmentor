@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+
+
+    border-radius: 50px;
+
+    display: flex;
+}
+
+.right, .left {
+    flex: 1;
+    border-radius: 50px;
+}
+
+.left {
+    background: blue;
+}
+
+.info {
+    background: red;
+}
